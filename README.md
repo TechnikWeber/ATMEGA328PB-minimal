@@ -17,7 +17,7 @@ be programmed and talk to a PC — a starting point for small AVR projects.
 |---|---|
 | ATmega328PB-A (TQFP-32) | The microcontroller, on its internal oscillator |
 | 2×3 ISP header | Programming with any AVR ISP programmer (USBasp, AVRISP mkII, …) |
-| 1×6 header (FTDI TTL-232R-3V3 pinout: GND, CTS, 3V3, TX, RX, DTR/RTS) | Serial connection and power from a USB-UART cable; DTR/RTS allows auto-reset for a bootloader |
+| 1×6 header for an FTDI TTL-232R-3V3 cable | Serial connection and 3.3 V power from a USB-UART cable; DTR/RTS allows auto-reset for a bootloader |
 | RESET and USER buttons | Reset, and one button for your own firmware |
 | LED with 220 Ω | Status LED |
 | 3 × 100 nF, 10 kΩ reset pull-up | Decoupling and reset |
